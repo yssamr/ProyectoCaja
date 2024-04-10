@@ -19,3 +19,25 @@ C:\Users\micha\OneDrive - INTEC\Escritorio\TRIMESTRE 7\LAB. DESARROLLO III\AppCa
 C:\Users\micha\OneDrive - INTEC\Escritorio\TRIMESTRE 7\LAB. DESARROLLO III\AppCaja\obj\Debug\AppCaja.AperturaCaja.es-PH.resources
 C:\Users\micha\OneDrive - INTEC\Escritorio\TRIMESTRE 7\LAB. DESARROLLO III\AppCaja\obj\Debug\AppCaja.IniciarSesion.resources
 C:\Users\micha\OneDrive - INTEC\Escritorio\TRIMESTRE 7\LAB. DESARROLLO III\AppCaja\obj\Debug\AppCaja.PagoProductos.resources
+C:\Users\micha\OneDrive - INTEC\Escritorio\ProyectoCaja\bin\Debug\AppCaja.exe.config
+C:\Users\micha\OneDrive - INTEC\Escritorio\ProyectoCaja\bin\Debug\AppCaja.exe
+C:\Users\micha\OneDrive - INTEC\Escritorio\ProyectoCaja\bin\Debug\AppCaja.pdb
+C:\Users\micha\OneDrive - INTEC\Escritorio\ProyectoCaja\bin\Debug\es-PH\AppCaja.resources.dll
+C:\Users\micha\OneDrive - INTEC\Escritorio\ProyectoCaja\bin\Debug\Bunifu.Licensing.dll
+C:\Users\micha\OneDrive - INTEC\Escritorio\ProyectoCaja\bin\Debug\Bunifu.UI.WinForms.dll
+C:\Users\micha\OneDrive - INTEC\Escritorio\ProyectoCaja\bin\Debug\Bunifu.UI.WinForms.xml
+C:\Users\micha\OneDrive - INTEC\Escritorio\ProyectoCaja\obj\Debug\AppCaja.csproj.AssemblyReference.cache
+C:\Users\micha\OneDrive - INTEC\Escritorio\ProyectoCaja\obj\Debug\AppCaja.csproj.SuggestedBindingRedirects.cache
+C:\Users\micha\OneDrive - INTEC\Escritorio\ProyectoCaja\obj\Debug\AppCaja.IniciarSesion.resources
+C:\Users\micha\OneDrive - INTEC\Escritorio\ProyectoCaja\obj\Debug\AppCaja.AperturaCaja.resources
+C:\Users\micha\OneDrive - INTEC\Escritorio\ProyectoCaja\obj\Debug\AppCaja.PagoProductos.resources
+C:\Users\micha\OneDrive - INTEC\Escritorio\ProyectoCaja\obj\Debug\AppCaja.Properties.Resources.resources
+C:\Users\micha\OneDrive - INTEC\Escritorio\ProyectoCaja\obj\Debug\AppCaja.RegistrarCajero.resources
+C:\Users\micha\OneDrive - INTEC\Escritorio\ProyectoCaja\obj\Debug\AppCaja.AperturaCaja.es-PH.resources
+C:\Users\micha\OneDrive - INTEC\Escritorio\ProyectoCaja\obj\Debug\AppCaja.csproj.GenerateResource.cache
+C:\Users\micha\OneDrive - INTEC\Escritorio\ProyectoCaja\obj\Debug\AppCaja.exe.licenses
+C:\Users\micha\OneDrive - INTEC\Escritorio\ProyectoCaja\obj\Debug\AppCaja.csproj.CoreCompileInputs.cache
+C:\Users\micha\OneDrive - INTEC\Escritorio\ProyectoCaja\obj\Debug\es-PH\AppCaja.resources.dll
+C:\Users\micha\OneDrive - INTEC\Escritorio\ProyectoCaja\obj\Debug\AppCaja.csproj.CopyComplete
+C:\Users\micha\OneDrive - INTEC\Escritorio\ProyectoCaja\obj\Debug\AppCaja.exe
+C:\Users\micha\OneDrive - INTEC\Escritorio\ProyectoCaja\obj\Debug\AppCaja.pdb

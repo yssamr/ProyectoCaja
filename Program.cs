@@ -18,7 +18,8 @@ namespace AppCaja
             Application.SetCompatibleTextRenderingDefault(false);
             //Application.Run(new IniciarSesion());
             //Application.Run(new AperturaCaja());
-            Application.Run(new PagoProductos());
+            //Application.Run(new PagoProductos());
+            Application.Run(new RegistrarCajero());
         }
     }
 }

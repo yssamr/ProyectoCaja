@@ -598,29 +598,23 @@
   <data name="&gt;&gt;btnSalir.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="cajasToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>58, 24</value>
-  </data>
-  <data name="cajasToolStripMenuItem.Text" xml:space="preserve">
-    <value>Cajas</value>
-  </data>
   <data name="aperturaDeCajaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>204, 26</value>
+    <value>224, 26</value>
   </data>
   <data name="aperturaDeCajaToolStripMenuItem.Text" xml:space="preserve">
     <value>Apertura de Caja</value>
   </data>
   <data name="cierreDeCajaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>204, 26</value>
+    <value>224, 26</value>
   </data>
   <data name="cierreDeCajaToolStripMenuItem.Text" xml:space="preserve">
     <value>Cierre de Caja</value>
   </data>
-  <data name="facturaciónToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>98, 24</value>
+  <data name="cajasToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 24</value>
   </data>
-  <data name="facturaciónToolStripMenuItem.Text" xml:space="preserve">
-    <value>Facturación</value>
+  <data name="cajasToolStripMenuItem.Text" xml:space="preserve">
+    <value>Cajas</value>
   </data>
   <data name="imprimirToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>80, 24</value>
@@ -4378,12 +4372,6 @@
     <value>cierreDeCajaToolStripMenuItem</value>
   </data>
   <data name="&gt;&gt;cierreDeCajaToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;facturaciónToolStripMenuItem.Name" xml:space="preserve">
-    <value>facturaciónToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;facturaciónToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;imprimirToolStripMenuItem.Name" xml:space="preserve">
