@@ -17,17 +17,17 @@ namespace AppCaja
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void bunifuGradientPanel1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void RegistrarCajero_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtIDCajero_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblPoliticas_Click(object sender, EventArgs e)
         {
 
         }
