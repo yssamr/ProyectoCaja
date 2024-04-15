@@ -38,6 +38,8 @@ namespace AppCaja
         private void button4_Click(object sender, EventArgs e)
         {
             //pendiente hacer el cierre de caje
+            CuadreCaja cuadreCaja = new CuadreCaja();
+            cuadreCaja.Show();
         }
 
         private void btnGuardar_Click(object sender, EventArgs e)
