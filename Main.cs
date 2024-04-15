@@ -40,7 +40,7 @@ namespace AppCaja
             //pendiente hacer el cierre de caje
         }
 
-        private void bunifuButton1_Click(object sender, EventArgs e)
+        private void btnGuardar_Click(object sender, EventArgs e)
         {
             IniciarSesion iniciarSesion = new IniciarSesion();
             iniciarSesion.Show();

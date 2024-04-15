@@ -20,7 +20,7 @@ namespace AppCaja
             //Application.Run(new AperturaCaja());
             //Application.Run(new PagoProductos());
             //Application.Run(new RegistrarCajero());
-            Application.Run(new Main2());
+            Application.Run(new Main());
         }
     }
 }
