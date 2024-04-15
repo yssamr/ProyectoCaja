@@ -97,6 +97,9 @@
     <Compile Include="RegistrarCajero.Designer.cs">
       <DependentUpon>RegistrarCajero.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="CuadreCaja.resx">
+      <DependentUpon>CuadreCaja.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="EntradaySalidaDeEfectivo.resx">
       <DependentUpon>EntradaySalidaDeEfectivo.cs</DependentUpon>
     </EmbeddedResource>
