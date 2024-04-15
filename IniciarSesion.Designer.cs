@@ -135,7 +135,7 @@
             this.txtUsuario.Padding = new System.Windows.Forms.Padding(3);
             this.txtUsuario.PasswordChar = '\0';
             this.txtUsuario.PlaceholderForeColor = System.Drawing.Color.Black;
-            this.txtUsuario.PlaceholderText = "Nombre de Usuario";
+            this.txtUsuario.PlaceholderText = "Usuario";
             this.txtUsuario.ReadOnly = false;
             this.txtUsuario.ScrollBars = System.Windows.Forms.ScrollBars.None;
             this.txtUsuario.SelectedText = "";
@@ -149,7 +149,7 @@
             this.txtUsuario.TextMarginBottom = 0;
             this.txtUsuario.TextMarginLeft = 10;
             this.txtUsuario.TextMarginTop = 1;
-            this.txtUsuario.TextPlaceholder = "Nombre de Usuario";
+            this.txtUsuario.TextPlaceholder = "Usuario";
             this.txtUsuario.UseSystemPasswordChar = false;
             this.txtUsuario.WordWrap = true;
             // 
