@@ -41,3 +41,27 @@ C:\Users\micha\OneDrive - INTEC\Escritorio\ProyectoCaja\obj\Debug\es-PH\AppCaja.
 C:\Users\micha\OneDrive - INTEC\Escritorio\ProyectoCaja\obj\Debug\AppCaja.csproj.CopyComplete
 C:\Users\micha\OneDrive - INTEC\Escritorio\ProyectoCaja\obj\Debug\AppCaja.exe
 C:\Users\micha\OneDrive - INTEC\Escritorio\ProyectoCaja\obj\Debug\AppCaja.pdb
+C:\Users\Priscilla Castro\OneDrive\Escritorio\F\ProyectoCaja\bin\Debug\AppCaja.exe.config
+C:\Users\Priscilla Castro\OneDrive\Escritorio\F\ProyectoCaja\bin\Debug\AppCaja.exe
+C:\Users\Priscilla Castro\OneDrive\Escritorio\F\ProyectoCaja\bin\Debug\AppCaja.pdb
+C:\Users\Priscilla Castro\OneDrive\Escritorio\F\ProyectoCaja\bin\Debug\es-PH\AppCaja.resources.dll
+C:\Users\Priscilla Castro\OneDrive\Escritorio\F\ProyectoCaja\bin\Debug\Bunifu.Licensing.dll
+C:\Users\Priscilla Castro\OneDrive\Escritorio\F\ProyectoCaja\bin\Debug\Bunifu.UI.WinForms.dll
+C:\Users\Priscilla Castro\OneDrive\Escritorio\F\ProyectoCaja\bin\Debug\Bunifu.UI.WinForms.xml
+C:\Users\Priscilla Castro\OneDrive\Escritorio\F\ProyectoCaja\obj\Debug\AppCaja.csproj.AssemblyReference.cache
+C:\Users\Priscilla Castro\OneDrive\Escritorio\F\ProyectoCaja\obj\Debug\AppCaja.csproj.SuggestedBindingRedirects.cache
+C:\Users\Priscilla Castro\OneDrive\Escritorio\F\ProyectoCaja\obj\Debug\AppCaja.EntradaySalidaDeEfectivo.resources
+C:\Users\Priscilla Castro\OneDrive\Escritorio\F\ProyectoCaja\obj\Debug\AppCaja.IniciarSesion.resources
+C:\Users\Priscilla Castro\OneDrive\Escritorio\F\ProyectoCaja\obj\Debug\AppCaja.AperturaCaja.resources
+C:\Users\Priscilla Castro\OneDrive\Escritorio\F\ProyectoCaja\obj\Debug\AppCaja.Main.resources
+C:\Users\Priscilla Castro\OneDrive\Escritorio\F\ProyectoCaja\obj\Debug\AppCaja.PagoProductos.resources
+C:\Users\Priscilla Castro\OneDrive\Escritorio\F\ProyectoCaja\obj\Debug\AppCaja.Properties.Resources.resources
+C:\Users\Priscilla Castro\OneDrive\Escritorio\F\ProyectoCaja\obj\Debug\AppCaja.RegistrarCajero.resources
+C:\Users\Priscilla Castro\OneDrive\Escritorio\F\ProyectoCaja\obj\Debug\AppCaja.AperturaCaja.es-PH.resources
+C:\Users\Priscilla Castro\OneDrive\Escritorio\F\ProyectoCaja\obj\Debug\AppCaja.csproj.GenerateResource.cache
+C:\Users\Priscilla Castro\OneDrive\Escritorio\F\ProyectoCaja\obj\Debug\AppCaja.exe.licenses
+C:\Users\Priscilla Castro\OneDrive\Escritorio\F\ProyectoCaja\obj\Debug\AppCaja.csproj.CoreCompileInputs.cache
+C:\Users\Priscilla Castro\OneDrive\Escritorio\F\ProyectoCaja\obj\Debug\es-PH\AppCaja.resources.dll
+C:\Users\Priscilla Castro\OneDrive\Escritorio\F\ProyectoCaja\obj\Debug\AppCaja.csproj.CopyComplete
+C:\Users\Priscilla Castro\OneDrive\Escritorio\F\ProyectoCaja\obj\Debug\AppCaja.exe
+C:\Users\Priscilla Castro\OneDrive\Escritorio\F\ProyectoCaja\obj\Debug\AppCaja.pdb
