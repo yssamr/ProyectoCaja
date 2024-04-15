@@ -53,6 +53,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EntradaySalidaDeEfectivo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EntradaySalidaDeEfectivo.Designer.cs">
+      <DependentUpon>EntradaySalidaDeEfectivo.cs</DependentUpon>
+    </Compile>
     <Compile Include="IniciarSesion.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -64,6 +70,12 @@
     </Compile>
     <Compile Include="AperturaCaja.Designer.cs">
       <DependentUpon>AperturaCaja.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
     </Compile>
     <Compile Include="PagoProductos.cs">
       <SubType>Form</SubType>
@@ -79,6 +91,9 @@
     <Compile Include="RegistrarCajero.Designer.cs">
       <DependentUpon>RegistrarCajero.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="EntradaySalidaDeEfectivo.resx">
+      <DependentUpon>EntradaySalidaDeEfectivo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="IniciarSesion.resx">
       <DependentUpon>IniciarSesion.cs</DependentUpon>
     </EmbeddedResource>
@@ -87,6 +102,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="AperturaCaja.resx">
       <DependentUpon>AperturaCaja.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PagoProductos.resx">
       <DependentUpon>PagoProductos.cs</DependentUpon>
@@ -105,6 +123,9 @@
     <EmbeddedResource Include="RegistrarCajero.resx">
       <DependentUpon>RegistrarCajero.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include=".gitignore">
+      <SubType>Form</SubType>
+    </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -124,6 +145,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Img\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Img\cerrar %281%29.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

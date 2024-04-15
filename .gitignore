@@ -1,0 +1,20 @@
+# Archivos de compilación
+bin/
+obj/
+
+# Archivos de usuario y configuración
+*.user
+*.suo
+*.vs/
+*.sln.docstates
+
+# Paquetes de NuGet
+packages/
+
+# Archivos temporales
+[Tt]emp/
+[Tt]est[Rr]esult*
+
+# Archivos de respaldo y caché
+*.[Bb]ak
+*.[Cc]ache
