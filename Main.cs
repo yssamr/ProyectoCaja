@@ -54,5 +54,12 @@ namespace AppCaja
         {
             Close();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            CuadreCaja cuadreCaja1 = new CuadreCaja();  
+            cuadreCaja1.Show(); 
+
+        }
     }
 }
