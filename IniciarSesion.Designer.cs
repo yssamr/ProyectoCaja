@@ -39,7 +39,6 @@
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties8 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges1 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
             Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges2 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            this.picPrincipal = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.txtUsuario = new Bunifu.UI.WinForms.BunifuTextBox();
             this.txtContraseña = new Bunifu.UI.WinForms.BunifuTextBox();
@@ -50,20 +49,12 @@
             this.lblMensaje1 = new System.Windows.Forms.Label();
             this.lblMensaje2 = new System.Windows.Forms.Label();
             this.btnLogin = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
-            this.picSecundario = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.picPrincipal)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picSecundario)).BeginInit();
+            this.bunifuGradientPanel2 = new Bunifu.UI.WinForms.BunifuGradientPanel();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.bunifuGradientPanel1 = new Bunifu.UI.WinForms.BunifuGradientPanel();
+            this.bunifuGradientPanel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
-            // 
-            // picPrincipal
-            // 
-            this.picPrincipal.Image = ((System.Drawing.Image)(resources.GetObject("picPrincipal.Image")));
-            this.picPrincipal.Location = new System.Drawing.Point(-2, -1);
-            this.picPrincipal.Name = "picPrincipal";
-            this.picPrincipal.Size = new System.Drawing.Size(351, 488);
-            this.picPrincipal.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picPrincipal.TabIndex = 0;
-            this.picPrincipal.TabStop = false;
             // 
             // label1
             // 
@@ -482,15 +473,52 @@
             this.btnLogin.UseDefaultRadiusAndThickness = true;
             this.btnLogin.Click += new System.EventHandler(this.bunifuButton1_Click);
             // 
-            // picSecundario
+            // bunifuGradientPanel2
             // 
-            this.picSecundario.Image = ((System.Drawing.Image)(resources.GetObject("picSecundario.Image")));
-            this.picSecundario.Location = new System.Drawing.Point(741, -1);
-            this.picSecundario.Name = "picSecundario";
-            this.picSecundario.Size = new System.Drawing.Size(63, 452);
-            this.picSecundario.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picSecundario.TabIndex = 27;
-            this.picSecundario.TabStop = false;
+            this.bunifuGradientPanel2.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuGradientPanel2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuGradientPanel2.BackgroundImage")));
+            this.bunifuGradientPanel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuGradientPanel2.BorderRadius = 0;
+            this.bunifuGradientPanel2.Controls.Add(this.pictureBox2);
+            this.bunifuGradientPanel2.GradientBottomLeft = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.bunifuGradientPanel2.GradientBottomRight = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.bunifuGradientPanel2.GradientTopLeft = System.Drawing.Color.Gold;
+            this.bunifuGradientPanel2.GradientTopRight = System.Drawing.Color.Gold;
+            this.bunifuGradientPanel2.Location = new System.Drawing.Point(-16, -1);
+            this.bunifuGradientPanel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.bunifuGradientPanel2.Name = "bunifuGradientPanel2";
+            this.bunifuGradientPanel2.Quality = 10;
+            this.bunifuGradientPanel2.Size = new System.Drawing.Size(365, 452);
+            this.bunifuGradientPanel2.TabIndex = 30;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox2.Image = global::AppCaja.Properties.Resources.logo_en_blanco;
+            this.pictureBox2.Location = new System.Drawing.Point(71, 60);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(223, 167);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 0;
+            this.pictureBox2.TabStop = false;
+            // 
+            // bunifuGradientPanel1
+            // 
+            this.bunifuGradientPanel1.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuGradientPanel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuGradientPanel1.BackgroundImage")));
+            this.bunifuGradientPanel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuGradientPanel1.BorderRadius = 0;
+            this.bunifuGradientPanel1.GradientBottomLeft = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.bunifuGradientPanel1.GradientBottomRight = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.bunifuGradientPanel1.GradientTopLeft = System.Drawing.Color.Gold;
+            this.bunifuGradientPanel1.GradientTopRight = System.Drawing.Color.Gold;
+            this.bunifuGradientPanel1.Location = new System.Drawing.Point(748, -1);
+            this.bunifuGradientPanel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.bunifuGradientPanel1.Name = "bunifuGradientPanel1";
+            this.bunifuGradientPanel1.Quality = 10;
+            this.bunifuGradientPanel1.Size = new System.Drawing.Size(65, 463);
+            this.bunifuGradientPanel1.TabIndex = 31;
             // 
             // IniciarSesion
             // 
@@ -498,7 +526,8 @@
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(797, 450);
-            this.Controls.Add(this.picSecundario);
+            this.Controls.Add(this.bunifuGradientPanel1);
+            this.Controls.Add(this.bunifuGradientPanel2);
             this.Controls.Add(this.lblMensaje2);
             this.Controls.Add(this.lblMensaje1);
             this.Controls.Add(this.btnCancelar);
@@ -509,23 +538,20 @@
             this.Controls.Add(this.txtContraseña);
             this.Controls.Add(this.txtUsuario);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.picPrincipal);
             this.ForeColor = System.Drawing.Color.White;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "IniciarSesion";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Sistema de Ventas";
-            ((System.ComponentModel.ISupportInitialize)(this.picPrincipal)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picSecundario)).EndInit();
+            this.bunifuGradientPanel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.PictureBox picPrincipal;
         private System.Windows.Forms.Label label1;
         private Bunifu.UI.WinForms.BunifuTextBox txtUsuario;
         private Bunifu.UI.WinForms.BunifuTextBox txtContraseña;
@@ -536,7 +562,9 @@
         private System.Windows.Forms.Label lblMensaje1;
         private System.Windows.Forms.Label lblMensaje2;
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton btnLogin;
-        private System.Windows.Forms.PictureBox picSecundario;
+        private Bunifu.UI.WinForms.BunifuGradientPanel bunifuGradientPanel2;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private Bunifu.UI.WinForms.BunifuGradientPanel bunifuGradientPanel1;
     }
 }
 
