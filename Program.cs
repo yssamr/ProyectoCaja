@@ -21,6 +21,7 @@ namespace AppCaja
             Application.Run(new Main());
             //Application.Run(new AperturaCaja());
             Application.Run(new PagoProductos());
+
         }
     }
 }
