@@ -66,3 +66,6 @@ C:\Users\Priscilla Castro\OneDrive\Escritorio\F\ProyectoCaja\obj\Debug\AppCaja.c
 C:\Users\Priscilla Castro\OneDrive\Escritorio\F\ProyectoCaja\obj\Debug\AppCaja.exe
 C:\Users\Priscilla Castro\OneDrive\Escritorio\F\ProyectoCaja\obj\Debug\AppCaja.pdb
 C:\Users\Priscilla Castro\OneDrive\Escritorio\F\ProyectoCaja\obj\Debug\AppCaja.CuadreCaja.resources
+C:\Users\micha\OneDrive - INTEC\Escritorio\ProyectoCaja\obj\Debug\AppCaja.CuadreCaja.resources
+C:\Users\micha\OneDrive - INTEC\Escritorio\ProyectoCaja\obj\Debug\AppCaja.EntradaySalidaDeEfectivo.resources
+C:\Users\micha\OneDrive - INTEC\Escritorio\ProyectoCaja\obj\Debug\AppCaja.Main.resources
