@@ -38,9 +38,11 @@ namespace AppCaja
         private void button4_Click(object sender, EventArgs e)
         {
             //pendiente hacer el cierre de caje
+            CuadreCaja cuadreCaja = new CuadreCaja();
+            cuadreCaja.Show();
         }
 
-        private void bunifuButton1_Click(object sender, EventArgs e)
+        private void btnGuardar_Click(object sender, EventArgs e)
         {
             IniciarSesion iniciarSesion = new IniciarSesion();
             iniciarSesion.Show();
@@ -51,6 +53,13 @@ namespace AppCaja
         private void pictureBox2_Click(object sender, EventArgs e)
         {
             Close();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            CuadreCaja cuadreCaja1 = new CuadreCaja();  
+            cuadreCaja1.Show(); 
+
         }
     }
 }
