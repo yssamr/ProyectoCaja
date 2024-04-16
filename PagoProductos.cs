@@ -23,8 +23,8 @@ namespace AppCaja
             timer.Interval = 1000; // Intervalo en milisegundos
             timer.Tick += (s, _) =>
             {
-                lblHoraActual.Text = DateTime.Now.ToLongTimeString(); // Actualizar la hora
-                lblFechaActual.Text = DateTime.Now.ToLongDateString(); // Actualizar la fecha
+                lblHora.Text = DateTime.Now.ToLongTimeString(); // Actualizar la hora
+                lblFecha.Text = DateTime.Now.ToLongDateString(); // Actualizar la fecha
             };
             timer.Start();
         }
