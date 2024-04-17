@@ -282,6 +282,7 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.menuStrip2);
             this.Controls.Add(this.labtitulo);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "EntradaySalidaDeEfectivo";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

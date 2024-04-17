@@ -16,11 +16,12 @@ namespace AppCaja
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            //Application.Run(new IniciarSesion());
+            //Application.Run(new RegistrarCajero());
+            Application.Run(new IniciarSesion());
+            //Application.Run(new Main());
             //Application.Run(new AperturaCaja());
             //Application.Run(new PagoProductos());
-            //Application.Run(new RegistrarCajero());
-            Application.Run(new Main());
+
         }
     }
 }

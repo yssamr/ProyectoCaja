@@ -19,18 +19,6 @@ namespace AppCaja
 
         private void PagoProductos_Load(object sender, EventArgs e)
         {
-            lblBienvenidos.Parent = pboxHome;
-            lblBienvenidos.BackColor = Color.Transparent;
-
-            lblHome.Parent = pboxHome;
-            lblHome.BackColor = Color.Transparent;
-
-            lblHora.Parent = pboxHome;
-            lblHora.BackColor = Color.Transparent;
-
-            lblFecha.Parent = pboxHome;
-            lblFecha.BackColor = Color.Transparent;
-
             Timer timer = new Timer();
             timer.Interval = 1000; // Intervalo en milisegundos
             timer.Tick += (s, _) =>

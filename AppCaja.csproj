@@ -40,6 +40,7 @@
       <HintPath>packages\Bunifu.UI.WinForms.6.3.0\lib\net452\Bunifu.UI.WinForms.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Design" />
     <Reference Include="System.Xml.Linq" />
@@ -53,6 +54,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CuadreCaja.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CuadreCaja.Designer.cs">
+      <DependentUpon>CuadreCaja.cs</DependentUpon>
+    </Compile>
     <Compile Include="EntradaySalidaDeEfectivo.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -91,6 +98,10 @@
     <Compile Include="RegistrarCajero.Designer.cs">
       <DependentUpon>RegistrarCajero.cs</DependentUpon>
     </Compile>
+    <Compile Include="Usuario.cs" />
+    <EmbeddedResource Include="CuadreCaja.resx">
+      <DependentUpon>CuadreCaja.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="EntradaySalidaDeEfectivo.resx">
       <DependentUpon>EntradaySalidaDeEfectivo.cs</DependentUpon>
     </EmbeddedResource>

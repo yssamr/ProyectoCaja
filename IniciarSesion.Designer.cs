@@ -39,39 +39,21 @@
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties8 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges1 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
             Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges2 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            this.picPrincipal = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.txtUsuario = new Bunifu.UI.WinForms.BunifuTextBox();
             this.txtContraseña = new Bunifu.UI.WinForms.BunifuTextBox();
             this.lblTitulo = new Bunifu.UI.WinForms.BunifuLabel();
             this.lblCredenciales = new System.Windows.Forms.Label();
             this.lblContraseñaOlvidada = new System.Windows.Forms.Label();
             this.btnCancelar = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
-            this.lblMensaje1 = new System.Windows.Forms.Label();
-            this.lblMensaje2 = new System.Windows.Forms.Label();
+            this.lblFooter = new System.Windows.Forms.Label();
+            this.lblFooter1 = new System.Windows.Forms.Label();
             this.btnLogin = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
-            this.picSecundario = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.picPrincipal)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picSecundario)).BeginInit();
+            this.Panel2 = new Bunifu.UI.WinForms.BunifuGradientPanel();
+            this.piclogo = new System.Windows.Forms.PictureBox();
+            this.Panel1 = new Bunifu.UI.WinForms.BunifuGradientPanel();
+            this.Panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.piclogo)).BeginInit();
             this.SuspendLayout();
-            // 
-            // picPrincipal
-            // 
-            this.picPrincipal.Image = ((System.Drawing.Image)(resources.GetObject("picPrincipal.Image")));
-            this.picPrincipal.Location = new System.Drawing.Point(-2, -1);
-            this.picPrincipal.Name = "picPrincipal";
-            this.picPrincipal.Size = new System.Drawing.Size(351, 488);
-            this.picPrincipal.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picPrincipal.TabIndex = 0;
-            this.picPrincipal.TabStop = false;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(61, 343);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(0, 16);
-            this.label1.TabIndex = 10;
             // 
             // txtUsuario
             // 
@@ -152,6 +134,7 @@
             this.txtUsuario.TextPlaceholder = "Usuario";
             this.txtUsuario.UseSystemPasswordChar = false;
             this.txtUsuario.WordWrap = true;
+            this.txtUsuario.TextChanged += new System.EventHandler(this.txtUsuario_TextChanged);
             // 
             // txtContraseña
             // 
@@ -232,7 +215,7 @@
             this.txtContraseña.TextPlaceholder = "Contraseña";
             this.txtContraseña.UseSystemPasswordChar = false;
             this.txtContraseña.WordWrap = true;
-            this.txtContraseña.TextChanged += new System.EventHandler(this.bunifuTextBox2_TextChanged);
+            this.txtContraseña.TextChanged += new System.EventHandler(this.txtContraseña_TextChanged);
             // 
             // lblTitulo
             // 
@@ -365,30 +348,31 @@
             this.btnCancelar.TextMarginLeft = 0;
             this.btnCancelar.TextPadding = new System.Windows.Forms.Padding(0);
             this.btnCancelar.UseDefaultRadiusAndThickness = true;
+            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
-            // lblMensaje1
+            // lblFooter
             // 
-            this.lblMensaje1.AutoSize = true;
-            this.lblMensaje1.BackColor = System.Drawing.Color.White;
-            this.lblMensaje1.Font = new System.Drawing.Font("Broadway", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMensaje1.ForeColor = System.Drawing.Color.Black;
-            this.lblMensaje1.Location = new System.Drawing.Point(494, 376);
-            this.lblMensaje1.Name = "lblMensaje1";
-            this.lblMensaje1.Size = new System.Drawing.Size(114, 15);
-            this.lblMensaje1.TabIndex = 25;
-            this.lblMensaje1.Text = "Developed by";
+            this.lblFooter.AutoSize = true;
+            this.lblFooter.BackColor = System.Drawing.Color.White;
+            this.lblFooter.Font = new System.Drawing.Font("Broadway", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFooter.ForeColor = System.Drawing.Color.Black;
+            this.lblFooter.Location = new System.Drawing.Point(494, 376);
+            this.lblFooter.Name = "lblFooter";
+            this.lblFooter.Size = new System.Drawing.Size(114, 15);
+            this.lblFooter.TabIndex = 25;
+            this.lblFooter.Text = "Developed by";
             // 
-            // lblMensaje2
+            // lblFooter1
             // 
-            this.lblMensaje2.AutoSize = true;
-            this.lblMensaje2.BackColor = System.Drawing.Color.White;
-            this.lblMensaje2.Font = new System.Drawing.Font("Broadway", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMensaje2.ForeColor = System.Drawing.Color.Black;
-            this.lblMensaje2.Location = new System.Drawing.Point(468, 393);
-            this.lblMensaje2.Name = "lblMensaje2";
-            this.lblMensaje2.Size = new System.Drawing.Size(154, 15);
-            this.lblMensaje2.TabIndex = 26;
-            this.lblMensaje2.Text = "Sistema de Ventas";
+            this.lblFooter1.AutoSize = true;
+            this.lblFooter1.BackColor = System.Drawing.Color.White;
+            this.lblFooter1.Font = new System.Drawing.Font("Broadway", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFooter1.ForeColor = System.Drawing.Color.Black;
+            this.lblFooter1.Location = new System.Drawing.Point(468, 393);
+            this.lblFooter1.Name = "lblFooter1";
+            this.lblFooter1.Size = new System.Drawing.Size(154, 15);
+            this.lblFooter1.TabIndex = 26;
+            this.lblFooter1.Text = "Sistema de Ventas";
             // 
             // btnLogin
             // 
@@ -480,17 +464,54 @@
             this.btnLogin.TextMarginLeft = 0;
             this.btnLogin.TextPadding = new System.Windows.Forms.Padding(0);
             this.btnLogin.UseDefaultRadiusAndThickness = true;
-            this.btnLogin.Click += new System.EventHandler(this.bunifuButton1_Click);
+            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
-            // picSecundario
+            // Panel2
             // 
-            this.picSecundario.Image = ((System.Drawing.Image)(resources.GetObject("picSecundario.Image")));
-            this.picSecundario.Location = new System.Drawing.Point(741, -1);
-            this.picSecundario.Name = "picSecundario";
-            this.picSecundario.Size = new System.Drawing.Size(63, 452);
-            this.picSecundario.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picSecundario.TabIndex = 27;
-            this.picSecundario.TabStop = false;
+            this.Panel2.BackColor = System.Drawing.Color.Transparent;
+            this.Panel2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Panel2.BackgroundImage")));
+            this.Panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Panel2.BorderRadius = 0;
+            this.Panel2.Controls.Add(this.piclogo);
+            this.Panel2.GradientBottomLeft = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.Panel2.GradientBottomRight = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.Panel2.GradientTopLeft = System.Drawing.Color.Gold;
+            this.Panel2.GradientTopRight = System.Drawing.Color.Gold;
+            this.Panel2.Location = new System.Drawing.Point(-16, -1);
+            this.Panel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Panel2.Name = "Panel2";
+            this.Panel2.Quality = 10;
+            this.Panel2.Size = new System.Drawing.Size(365, 452);
+            this.Panel2.TabIndex = 30;
+            // 
+            // piclogo
+            // 
+            this.piclogo.BackColor = System.Drawing.Color.Transparent;
+            this.piclogo.Image = global::AppCaja.Properties.Resources.logo_en_blanco;
+            this.piclogo.Location = new System.Drawing.Point(71, 60);
+            this.piclogo.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.piclogo.Name = "piclogo";
+            this.piclogo.Size = new System.Drawing.Size(223, 167);
+            this.piclogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.piclogo.TabIndex = 0;
+            this.piclogo.TabStop = false;
+            // 
+            // Panel1
+            // 
+            this.Panel1.BackColor = System.Drawing.Color.Transparent;
+            this.Panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Panel1.BackgroundImage")));
+            this.Panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Panel1.BorderRadius = 0;
+            this.Panel1.GradientBottomLeft = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.Panel1.GradientBottomRight = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.Panel1.GradientTopLeft = System.Drawing.Color.Gold;
+            this.Panel1.GradientTopRight = System.Drawing.Color.Gold;
+            this.Panel1.Location = new System.Drawing.Point(748, -1);
+            this.Panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Panel1.Name = "Panel1";
+            this.Panel1.Quality = 10;
+            this.Panel1.Size = new System.Drawing.Size(65, 463);
+            this.Panel1.TabIndex = 31;
             // 
             // IniciarSesion
             // 
@@ -498,9 +519,10 @@
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(797, 450);
-            this.Controls.Add(this.picSecundario);
-            this.Controls.Add(this.lblMensaje2);
-            this.Controls.Add(this.lblMensaje1);
+            this.Controls.Add(this.Panel1);
+            this.Controls.Add(this.Panel2);
+            this.Controls.Add(this.lblFooter1);
+            this.Controls.Add(this.lblFooter);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btnLogin);
             this.Controls.Add(this.lblContraseñaOlvidada);
@@ -508,35 +530,33 @@
             this.Controls.Add(this.lblTitulo);
             this.Controls.Add(this.txtContraseña);
             this.Controls.Add(this.txtUsuario);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.picPrincipal);
             this.ForeColor = System.Drawing.Color.White;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "IniciarSesion";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Sistema de Ventas";
-            ((System.ComponentModel.ISupportInitialize)(this.picPrincipal)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picSecundario)).EndInit();
+            this.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.piclogo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.PictureBox picPrincipal;
-        private System.Windows.Forms.Label label1;
+        //private System.Windows.Forms.Label label1;
         private Bunifu.UI.WinForms.BunifuTextBox txtUsuario;
         private Bunifu.UI.WinForms.BunifuTextBox txtContraseña;
         private Bunifu.UI.WinForms.BunifuLabel lblTitulo;
         private System.Windows.Forms.Label lblCredenciales;
         private System.Windows.Forms.Label lblContraseñaOlvidada;
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton btnCancelar;
-        private System.Windows.Forms.Label lblMensaje1;
-        private System.Windows.Forms.Label lblMensaje2;
+        private System.Windows.Forms.Label lblFooter;
+        private System.Windows.Forms.Label lblFooter1;
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton btnLogin;
-        private System.Windows.Forms.PictureBox picSecundario;
+        private Bunifu.UI.WinForms.BunifuGradientPanel Panel2;
+        private System.Windows.Forms.PictureBox piclogo;
+        private Bunifu.UI.WinForms.BunifuGradientPanel Panel1;
     }
 }
 
