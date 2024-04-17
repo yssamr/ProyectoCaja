@@ -14,6 +14,11 @@ namespace AppCaja
 {
     public partial class RegistrarCajero : Form
     {
+        private void RegistrarCajero_Load(object sender, EventArgs e)
+        {
+
+        }
+
         public RegistrarCajero()
         {
             InitializeComponent();
